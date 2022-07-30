@@ -1,0 +1,104 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+main{
+    display:flex;
+    flex-direction: row;
+    height: 95vh;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+section{
+    display:flex;
+    margin:auto;
+    /* margin-top: 10em; */
+
+}
+section div{
+    background-color:green;
+    height:60vh;
+    width:20vw;
+    padding-left: 10px;
+
+}
+#first-card{
+    
+    background-color:hsl(31, 77%, 52%) ;
+    border-radius: 10px 0 0 10px;
+}
+#second-card{
+    background-color:hsl(184, 100%, 22%);
+}
+#third-card{
+    background-color:hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px  0;
+}
+img{
+    margin-top: 30px;
+    margin-left:40px;
+}
+section p{
+    font-family: 'Lexend Deca' Tahoma;
+    font-weight: 400;
+}
+section h2{
+    font-family: 'Big Shoulders Display' 'Trebuchet MS';
+}
+section h2, p{
+    margin-left:40px;
+    margin-bottom:40px;
+    padding-right: 40px;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    border-color:hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca' Tahoma;
+    font-weight:400;
+}
+#first-card button{
+    margin-top:70px;
+    margin-left:40px;
+    padding:10px 30px;
+    border-radius:50px;
+    border-color:none; 
+    color:hsl(31, 77%, 52%);
+}
+#second-card button{
+    margin-top:70px;
+    margin-left:40px; 
+    padding:10px 30px;
+    border-radius:50px;
+    color:hsl(184, 100%, 22%);
+}
+#third-card button{
+    margin-top:70px;
+    margin-left:40px;
+    padding:10px 30px;
+    border-radius:50px;
+    border-color:none;
+    color:hsl(179, 100%, 13%);
+}
+button a:hover{
+    color:white;
+}
+#first-card button:hover{
+    background-color:hsl(31, 77%, 52%);
+    color:white;
+    cursor:pointer;
+    border:2px solid white;
+}
+#second-card button:hover{
+    background-color:hsl(184, 100%, 22%);
+    color:white;
+    cursor:pointer; border:2px solid white;
+
+}
+#third-card button:hover{
+    background-color:hsl(179, 100%, 13%);
+    color:white;
+    cursor:pointer;
+    border:2px solid white;
+}
